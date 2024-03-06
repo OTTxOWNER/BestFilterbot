@@ -40,7 +40,7 @@ Add me as admin in your group and start filtering :)
 AboutTxT = """
 ⭕️ Official Channel : @OTTxBackup</b>
 ⭕️ Developers : @OTTxOwner 
-⭕️ Upgrader : @OTTxOwner
+⭕️ Upgrader : @OTTxPremium
 ⭕️ Language : Python3
 ⭕️ Library : <a href='https://docs.pyrogram.org/'>Pyrogram 2.0.102</a> 
 """
