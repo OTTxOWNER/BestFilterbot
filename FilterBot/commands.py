@@ -18,7 +18,7 @@ async def startCMD(client: FilterBot, message: Message):
       InlineKeyboardButton('About', callback_data='main#about')
       ],[
       InlineKeyboardButton('Update', url='t.me/OTTxBackup'),
-      InlineKeyboardButton('Support', url='t.me/OTTxOwner')
+      InlineKeyboardButton('Support', url='t.me/OTTxPremium')
       ]]
 
     if "motech" == BOT_PICS[0]:
@@ -49,7 +49,7 @@ async def aboutCMD(client: FilterBot, message: Message):
         await db.add_user(message.from_user.first_name, message.from_user.id)
 
     keyboard = [[ InlineKeyboardButton('Tutorial', url='https://youtu.be/vbloWcdxjxg'),
-                   InlineKeyboardButton('Repo', url='https://github.com/Learningbots79/BestFilterbot') ],
+                   InlineKeyboardButton('Repo', url='https://t.me/OTTxOwner') ],
                 [ InlineKeyboardButton('Home', callback_data='main#start'),
                   InlineKeyboardButton('Help', callback_data='main#help') ]]
 
@@ -74,7 +74,7 @@ async def maincallback(client: FilterBot, message):
         keyboard = [[ InlineKeyboardButton('Add Me To Your Chat', url=f"t.me/{bot.username}?startgroup=true") ],
                     [ InlineKeyboardButton('Help', callback_data='main#help'),
                       InlineKeyboardButton('About', callback_data='main#about') ],
-                    [ InlineKeyboardButton('Update', url='t.me/OTTxBackup'),
+                    [ InlineKeyboardButton('Update', url='t.me/OTTxPremium'),
                       InlineKeyboardButton('Support', url='t.me/OTTxOwner') ]]
         await message.message.edit(text=StartTxT.format(mention=message.from_user.mention), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True)
 
