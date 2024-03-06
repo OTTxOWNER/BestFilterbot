@@ -38,7 +38,7 @@ Add me as admin in your group and start filtering :)
 """
 
 AboutTxT = """
-⭕️ Official Channel : @OTTxSerises</b>
+⭕️ Official Channel : @OTTxBackup</b>
 ⭕️ Developers : @OTTxOwner 
 ⭕️ Upgrader : @OTTxOwner
 ⭕️ Language : Python3
